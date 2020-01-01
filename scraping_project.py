@@ -5,6 +5,9 @@ import random
 import xlsxwriter
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome("chromedriver.exe")
 
