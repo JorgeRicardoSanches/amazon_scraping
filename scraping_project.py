@@ -51,28 +51,7 @@ try:
         #     Show10.click()
 
         # Scroll
-        time.sleep(4)
-        driver.execute_script("window.scrollTo(0, 1000);")
-        time.sleep(2)
-        driver.execute_script("window.scrollTo(1000, 2000);")
-        time.sleep(2)
-        driver.execute_script("window.scrollTo(2000, 3000);")
-        time.sleep(2)
-        driver.execute_script("window.scrollTo(3000, 4000);")
-        time.sleep(2)
-        driver.execute_script("window.scrollTo(4000, 5000);")
-        time.sleep(2)
-        driver.execute_script("window.scrollTo(5000, 6000);")
-        time.sleep(3)
-        driver.execute_script("window.scrollTo(6000, 7000);")
-        time.sleep(3)
-        driver.execute_script("window.scrollTo(7000, 8000);")
-        time.sleep(3)
-        driver.execute_script("window.scrollTo(8000, 9000);")
-        time.sleep(4)
-        driver.execute_script("window.scrollTo(9000, 10000);")
-
-        time.sleep(3)
+ 
 
         soup = BeautifulSoup(driver.page_source, 'html.parser')
 
