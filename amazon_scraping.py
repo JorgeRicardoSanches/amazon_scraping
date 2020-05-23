@@ -96,6 +96,7 @@ def main(define_url, row, page_number):
       for x in range(len(image_lists)):
         if(x<7):
           image_list.append(image_lists[x].find('img')['src'])
+      print(image_list)
       index = 17
       for x in range(len(image_list)):
         product_info[index] = image_list[x]
