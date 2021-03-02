@@ -1,9 +1,6 @@
 from bs4 import BeautifulSoup as soup
 from selenium import webdriver
-# from webdriver_manager.chrome import ChromeDriverManager
-# from selenium.common.exceptions import NoSuchElementException
-# from selenium.webdriver.chrome.options import Options
-# from webdriver_manager.chrome import ChromeDriverManager
+
 import requests
 import re
 import random
